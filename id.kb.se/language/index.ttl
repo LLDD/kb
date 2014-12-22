@@ -1,0 +1,6 @@
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+
+<http://id.kb.se/language/eng> skos:notation "eng" .
+
+<http://id.kb.se/language/swe> skos:notation "swe" .
+

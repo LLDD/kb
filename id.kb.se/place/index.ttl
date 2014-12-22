@@ -1,0 +1,5 @@
+prefix sdo: <http://schema.org/>
+
+<http://id.kb.se/place/rsg0f8h3p-stckhlm> a sdo:Place ;
+    sdo:name "Stockholm" ;
+    sdo:containedIn <http://id.kb.se/country/sw> .

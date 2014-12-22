@@ -1,0 +1,34 @@
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+
+<http://id.kb.se/scheme/isbn> a skos:ConceptScheme ;
+    skos:notation "ISBN" .
+
+<http://id.kb.se/topic/kssb/7> a skos:ConceptScheme ;
+    skos:notation "kssb/7" .
+
+<http://id.kb.se/topic/kssb/7/He.01%3Dc> a skos:Concept ;
+    skos:inScheme <http://id.kb.se/topic/kssb/7> ;
+    skos:notation "He.01=c" .
+
+<http://id.kb.se/topic/kssb> a skos:ConceptScheme ;
+    skos:notation "kssb" .
+
+<http://id.kb.se/topic/kssb/8> a skos:ConceptScheme ;
+    skos:notation "kssb/8" .
+
+<http://id.kb.se/topic/kssb/8/He.01%3Dc> a skos:Concept ;
+    skos:inScheme <http://id.kb.se/topic/kssb/8> ;
+    skos:notation "He.01=c" .
+
+<http://id.kb.se/topic/kssb/Hce> a skos:Concept ;
+    skos:inScheme <http://id.kb.se/topic/kssb> ;
+    skos:notation "Hce" .
+
+<http://id.kb.se/topic/sab> a skos:ConceptScheme ;
+    skos:notation "sab" .
+
+<http://id.kb.se/topic/sab/He.01%3Dc> a skos:Concept ;
+    skos:inScheme <http://id.kb.se/topic/sab> ;
+    skos:notation "He.01=c" ;
+    skos:prefLabel "Skönlitteratur" .
+

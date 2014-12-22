@@ -1,0 +1,7 @@
+prefix sdo: <http://schema.org/>
+
+<http://bibdb.libris.kb.se/library/NB> a sdo:Library ;
+    sdo:alternateName "NB" .
+
+<http://bibdb.libris.kb.se/library/U> a sdo:Library ;
+    sdo:alternateName "U" .

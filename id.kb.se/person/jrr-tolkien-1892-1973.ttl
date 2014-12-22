@@ -1,0 +1,14 @@
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix sdo: <http://schema.org/>
+
+BASE <http://id.kb.se/>
+
+</person/jrr-tolkien-1892-1973> a sdo:Person ;
+    owl:sameAs <http://libris.kb.se/resource/auth/97224> ;
+    sdo:birthDate "1892"^^xsd:gYear ;
+    sdo:deathDate "1973"^^xsd:gYear ;
+    sdo:familyName "Tolkien" ;
+    sdo:givenName "J. R. R." .

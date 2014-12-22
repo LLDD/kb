@@ -1,0 +1,26 @@
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix edtf: <http://id.loc.gov/datatypes/edtf/>
+prefix bf: <http://bibframe.org/vocab/>
+prefix bibo: <http://purl.org/ontology/bibo/>
+prefix dc: <http://purl.org/dc/terms/>
+prefix prov: <http://www.w3.org/ns/prov#>
+prefix sdo: <http://schema.org/>
+
+<http://libris.kb.se/text/npcwb5dzl-smrtlkhlmsv> a sdo:CreativeWork, bf:Monograph, bf:Text ;
+    dc:title "Sagan om ringen"@sv ;
+    bf:responsibilityStatement "J.R.R. Tolkien ; till svenska av Åke Ohlmarks"@sv ;
+    sdo:author <http://id.kb.se/person/jrr-tolkien-1892-1973> ;
+    prov:wasAttributedTo <http://id.kb.se/person/jrr-tolkien-1892-1973> ;
+    bibo:translator <http://id.kb.se/person/aake-ohlmarks-1911-1984> ;
+    prov:wasInfluencedBy <http://id.kb.se/person/aake-ohlmarks-1911-1984> ;
+    dc:language <http://id.kb.se/language/swe> ;
+    dc:type <http://id.kb.se/enum/content/Novel> ;
+    bf:classification <http://id.kb.se/topic/kssb/7/He.01%3Dc> ,
+        <http://id.kb.se/topic/kssb/8/He.01%3Dc>,
+        <http://id.kb.se/topic/kssb/Hce>,
+        <http://id.kb.se/topic/sab/He.01%3Dc> ;
+    bibo:translationOf [ a sdo:CreativeWork;
+            dc:title "The fellowship of the ring"@en ;
+            dc:language <http://id.kb.se/language/eng> ] .

@@ -1,0 +1,40 @@
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix edtf: <http://id.loc.gov/datatypes/edtf/>
+prefix bf: <http://bibframe.org/vocab/>
+prefix bibo: <http://purl.org/ontology/bibo/>
+prefix dc: <http://purl.org/dc/terms/>
+prefix dctype: <http://purl.org/dc/dcmitype/>
+prefix el1: <http://rdvocab.info/Elements/>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix prov: <http://www.w3.org/ns/prov#>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix sdo: <http://schema.org/>
+
+<http://libris.kb.se/bib/1846457> a foaf:Document ;
+    dc:identifier "1846457" ;
+    sdo:about <http://libris.kb.se/bib/1846457#thing> ;
+    dc:created "1994-06-13"^^xsd:date ;
+    dc:modified "2009-02-27T08:32:55+01:00"^^xsd:dateTime ;
+    dc:creator <http://bibdb.libris.kb.se/library/U> .
+
+<http://libris.kb.se/bib/1846457#thing> a sdo:Product, sdo:Book ;
+    owl:sameAs <http://libris.kb.se/resource/bib/1846457> ;
+    sdo:exampleOfWork <http://libris.kb.se/text/npcwb5dzl-smrtlkhlmsv> ;
+    bf:contentsNote "S. 11-15: John Tolkien och hans fantasivärld / Åke Ohlmarks"@sv ;
+    bf:illustrationNote "ill., kart." ;
+    dc:extent "482, [1] s." ;
+    dc:hasPart [ a sdo:CreativeWork ;
+            dc:title "John Tolkien och hans fantasivärld"@sv ;
+            prov:wasInfluencedBy <http://id.kb.se/person/aake-ohlmarks-1911-1984> ] ;
+    bf:publication [ a bf:Provider ;
+            el1:publicationStatement "© 1959 Geber" ;
+            bf:providerDate "1959"^^xsd:date ;
+            bf:providerName <http://id.kb.se/9b0jzs1m7-gbr-14kd> ;
+            bf:providerPlace <http://id.kb.se/place/rsg0f8h3p-stckhlm> ] ;
+    bf:manufacture [ a bf:Provider ;
+            bf:providerName "A & W" ;
+            bf:providerPlace [ a sdo:Place ;
+                    sdo:name "Uppsala" ] ] ;
+    bf:noteOnPublicationStatement "Även tillg. med tryckår: 2. uppl., 1962"@sv .

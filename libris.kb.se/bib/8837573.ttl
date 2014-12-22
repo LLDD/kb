@@ -1,0 +1,49 @@
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix edtf: <http://id.loc.gov/datatypes/edtf/>
+prefix bf: <http://bibframe.org/vocab/>
+prefix bibo: <http://purl.org/ontology/bibo/>
+prefix dc: <http://purl.org/dc/terms/>
+prefix dctype: <http://purl.org/dc/dcmitype/>
+prefix el1: <http://rdvocab.info/Elements/>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix prov: <http://www.w3.org/ns/prov#>
+prefix skos: <http://www.w3.org/2004/02/skos/core#>
+prefix sdo: <http://schema.org/>
+prefix void: <http://rdfs.org/ns/void#>
+
+<http://libris.kb.se/bib/8837573> a foaf:Document ;
+    dc:identifier "8837573" ;
+    sdo:about <http://libris.kb.se/bib/8837573#thing> ;
+    dc:created "2002-12-19"^^xsd:date ;
+    dc:modified "2014-10-29T09:43:18+01:00"^^xsd:dateTime ;
+    void:inDataset [ a void:Dataset ;
+            skos:notation "NB" ];
+    dc:creator <http://bibdb.libris.kb.se/library/NB> .
+
+<http://libris.kb.se/bib/8837573#thing> a sdo:Product, sdo:Book ;
+    owl:sameAs <http://libris.kb.se/resource/bib/8837573> ;
+    sdo:exampleOfWork <http://libris.kb.se/text/npcwb5dzl-smrtlkhlmsv> ;
+    sdo:bookFormat sdo:Paperback ;
+    bf:dimensions "18 cm" ;
+    dc:extent "481, [1] s." ;
+    dc:identifier [ a bf:Identifier ;
+            bf:identifierScheme <http://id.kb.se/scheme/isbn> ;
+            bf:identifierValue "91-7263-341-7" ] ;
+    bf:publication [ a bf:Provider ;
+            el1:publicationStatement "© 2002 Pan" ;
+            bf:providerDate "2002"^^xsd:date ;
+            bf:providerName <http://id.kb.se/tvj2hbk5r-pn-w4rl> ;
+            bf:providerPlace <http://id.kb.se/place/rsg0f8h3p-stckhlm> ] ;
+    bf:manufacture [ a bf:Provider ;
+            bf:providerPlace [ a sdo:Place ;
+                    sdo:name "Danmark" ] ] ;
+    bf:series [ a bf:Serial ;
+            dc:title "En Panpocket från Norstedts"@sv ] ;
+    dc:isPartOf [ a sdo:PublicationVolume ;
+            dc:title "Pan pocket"@sv ] ;
+    bf:edition "16. pocketuppl." ;
+    bf:noteOnPublicationStatement "Första svenska uppl. 1959"@sv,
+        "Även med tryckår: 2. tr., 2003"@sv ;
+    dc:isVersionOf <http://libris.kb.se/bib/1846457#thing> .
