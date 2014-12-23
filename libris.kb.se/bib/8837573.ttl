@@ -44,6 +44,6 @@ prefix void: <http://rdfs.org/ns/void#>
     dc:isPartOf [ a sdo:PublicationVolume ;
             dc:title "Pan pocket"@sv ] ;
     bf:edition "16. pocketuppl." ;
-    bf:noteOnPublicationStatement "Första svenska uppl. 1959"@sv,
+    el1:noteOnPublicationStatement "Första svenska uppl. 1959"@sv,
         "Även med tryckår: 2. tr., 2003"@sv ;
     dc:isVersionOf <http://libris.kb.se/bib/1846457#thing> .

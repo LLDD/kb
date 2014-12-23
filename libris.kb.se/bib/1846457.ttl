@@ -37,4 +37,4 @@ prefix sdo: <http://schema.org/>
             bf:providerName "A & W" ;
             bf:providerPlace [ a sdo:Place ;
                     sdo:name "Uppsala" ] ] ;
-    bf:noteOnPublicationStatement "Även tillg. med tryckår: 2. uppl., 1962"@sv .
+    el1:noteOnPublicationStatement "Även tillg. med tryckår: 2. uppl., 1962"@sv .
