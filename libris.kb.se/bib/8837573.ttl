@@ -34,7 +34,7 @@ prefix void: <http://rdfs.org/ns/void#>
     bf:publication [ a bf:Provider ;
             el1:publicationStatement "© 2002 Pan" ;
             bf:providerDate "2002"^^xsd:date ;
-            bf:providerName <http://id.kb.se/tvj2hbk5r-pn-w4rl> ;
+            bf:providerName <http://id.kb.se/organization/tvj2hbk5r-pn-w4rl> ;
             bf:providerPlace <http://id.kb.se/place/rsg0f8h3p-stckhlm> ] ;
     bf:manufacture [ a bf:Provider ;
             bf:providerPlace [ a sdo:Place ;

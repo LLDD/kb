@@ -31,7 +31,7 @@ prefix sdo: <http://schema.org/>
     bf:publication [ a bf:Provider ;
             el1:publicationStatement "© 1959 Geber" ;
             bf:providerDate "1959"^^xsd:date ;
-            bf:providerName <http://id.kb.se/9b0jzs1m7-gbr-14kd> ;
+            bf:providerName <http://id.kb.se/organization/9b0jzs1m7-gbr-14kd> ;
             bf:providerPlace <http://id.kb.se/place/rsg0f8h3p-stckhlm> ] ;
     bf:manufacture [ a bf:Provider ;
             bf:providerName "A & W" ;

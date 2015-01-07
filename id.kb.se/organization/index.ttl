@@ -1,7 +1,7 @@
 prefix sdo: <http://schema.org/>
 
-<http://id.kb.se/9b0jzs1m7-gbr-14kd> a sdo:Organization ;
+<http://id.kb.se/organization/9b0jzs1m7-gbr-14kd> a sdo:Organization ;
     sdo:name "Geber" .
 
-<http://id.kb.se/tvj2hbk5r-pn-w4rl> a sdo:Organization ;
+<http://id.kb.se/organization/tvj2hbk5r-pn-w4rl> a sdo:Organization ;
     sdo:name "Pan" .
